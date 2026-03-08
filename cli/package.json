@@ -1,0 +1,18 @@
+{
+    "name": "tokenengine",
+    "version": "1.0.0",
+    "description": "Extract design tokens straight to your codebase",
+    "main": "index.js",
+    "type": "module",
+    "bin": {
+        "tokenengine": "./index.js",
+        "te": "./index.js"
+    },
+    "dependencies": {
+        "axios": "^1.6.7",
+        "chalk": "^5.3.0",
+        "commander": "^12.0.0",
+        "ora": "^8.0.1",
+        "prompts": "^2.4.2"
+    }
+}

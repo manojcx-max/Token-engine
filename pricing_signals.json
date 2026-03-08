@@ -1,0 +1,311 @@
+{
+  "sessions": {
+    "enpidi8fnjnkkluqsjokno": {
+      "sessionId": "enpidi8fnjnkkluqsjokno",
+      "extractions": 13,
+      "copiedPrompt": false,
+      "selectedPriceTier": "$9/mo",
+      "events": [
+        {
+          "event": "view_results",
+          "timestamp": "2026-02-23T16:29:48.160Z"
+        },
+        {
+          "event": "extraction",
+          "timestamp": "2026-02-23T16:29:48.159Z"
+        },
+        {
+          "event": "extraction",
+          "timestamp": "2026-02-23T16:37:57.738Z"
+        },
+        {
+          "event": "view_results",
+          "timestamp": "2026-02-23T16:37:57.738Z"
+        },
+        {
+          "event": "extraction",
+          "timestamp": "2026-02-23T16:38:00.495Z"
+        },
+        {
+          "event": "view_results",
+          "timestamp": "2026-02-23T16:38:00.496Z"
+        },
+        {
+          "event": "extraction",
+          "timestamp": "2026-02-23T16:40:16.709Z"
+        },
+        {
+          "event": "view_results",
+          "timestamp": "2026-02-23T16:40:16.709Z"
+        },
+        {
+          "event": "extraction",
+          "timestamp": "2026-02-23T16:40:16.761Z"
+        },
+        {
+          "event": "view_results",
+          "timestamp": "2026-02-23T16:40:16.761Z"
+        },
+        {
+          "event": "extraction",
+          "timestamp": "2026-02-23T16:54:38.730Z"
+        },
+        {
+          "event": "view_results",
+          "timestamp": "2026-02-23T16:54:38.730Z"
+        },
+        {
+          "event": "extraction",
+          "timestamp": "2026-02-23T16:54:38.967Z"
+        },
+        {
+          "event": "view_results",
+          "timestamp": "2026-02-23T16:54:38.968Z"
+        },
+        {
+          "event": "extraction",
+          "timestamp": "2026-02-23T17:01:02.168Z"
+        },
+        {
+          "event": "view_results",
+          "timestamp": "2026-02-23T17:01:02.169Z"
+        },
+        {
+          "event": "extraction",
+          "timestamp": "2026-02-23T17:01:02.213Z"
+        },
+        {
+          "event": "view_results",
+          "timestamp": "2026-02-23T17:01:02.214Z"
+        },
+        {
+          "event": "extraction",
+          "timestamp": "2026-02-23T17:03:39.251Z"
+        },
+        {
+          "event": "view_results",
+          "timestamp": "2026-02-23T17:03:39.252Z"
+        },
+        {
+          "event": "extraction",
+          "timestamp": "2026-02-23T17:03:45.247Z"
+        },
+        {
+          "event": "view_results",
+          "timestamp": "2026-02-23T17:03:45.247Z"
+        },
+        {
+          "event": "extraction",
+          "timestamp": "2026-02-23T18:33:37.064Z"
+        },
+        {
+          "event": "view_results",
+          "timestamp": "2026-02-23T18:33:37.065Z"
+        },
+        {
+          "event": "extraction",
+          "timestamp": "2026-02-23T18:33:37.122Z"
+        },
+        {
+          "event": "view_results",
+          "timestamp": "2026-02-23T18:33:37.123Z"
+        }
+      ]
+    },
+    "07t9oanqjxrkv6t130lqgp": {
+      "sessionId": "07t9oanqjxrkv6t130lqgp",
+      "extractions": 19,
+      "copiedPrompt": false,
+      "selectedPriceTier": null,
+      "events": [
+        {
+          "event": "extraction",
+          "timestamp": "2026-03-01T18:24:44.072Z"
+        },
+        {
+          "event": "view_results",
+          "timestamp": "2026-03-01T18:24:44.073Z"
+        },
+        {
+          "event": "extraction",
+          "timestamp": "2026-03-01T18:24:44.215Z"
+        },
+        {
+          "event": "view_results",
+          "timestamp": "2026-03-01T18:24:44.215Z"
+        },
+        {
+          "event": "extraction",
+          "timestamp": "2026-03-01T18:28:42.643Z"
+        },
+        {
+          "event": "view_results",
+          "timestamp": "2026-03-01T18:28:42.644Z"
+        },
+        {
+          "event": "extraction",
+          "timestamp": "2026-03-01T18:28:42.661Z"
+        },
+        {
+          "event": "view_results",
+          "timestamp": "2026-03-01T18:28:42.662Z"
+        },
+        {
+          "event": "extraction",
+          "timestamp": "2026-03-01T18:56:50.812Z"
+        },
+        {
+          "event": "view_results",
+          "timestamp": "2026-03-01T18:56:50.812Z"
+        },
+        {
+          "event": "extraction",
+          "timestamp": "2026-03-01T18:56:52.009Z"
+        },
+        {
+          "event": "view_results",
+          "timestamp": "2026-03-01T18:56:52.010Z"
+        },
+        {
+          "event": "extraction",
+          "timestamp": "2026-03-01T18:57:36.656Z"
+        },
+        {
+          "event": "view_results",
+          "timestamp": "2026-03-01T18:57:36.656Z"
+        },
+        {
+          "event": "extraction",
+          "timestamp": "2026-03-01T18:57:36.702Z"
+        },
+        {
+          "event": "view_results",
+          "timestamp": "2026-03-01T18:57:36.702Z"
+        },
+        {
+          "event": "extraction",
+          "timestamp": "2026-03-01T19:04:49.905Z"
+        },
+        {
+          "event": "view_results",
+          "timestamp": "2026-03-01T19:04:49.905Z"
+        },
+        {
+          "event": "extraction",
+          "timestamp": "2026-03-01T19:04:49.939Z"
+        },
+        {
+          "event": "view_results",
+          "timestamp": "2026-03-01T19:04:49.940Z"
+        },
+        {
+          "event": "extraction",
+          "timestamp": "2026-03-01T19:07:38.738Z"
+        },
+        {
+          "event": "view_results",
+          "timestamp": "2026-03-01T19:07:38.738Z"
+        },
+        {
+          "event": "extraction",
+          "timestamp": "2026-03-01T19:07:50.523Z"
+        },
+        {
+          "event": "view_results",
+          "timestamp": "2026-03-01T19:07:50.523Z"
+        },
+        {
+          "event": "extraction",
+          "timestamp": "2026-03-01T19:07:56.942Z"
+        },
+        {
+          "event": "view_results",
+          "timestamp": "2026-03-01T19:07:56.942Z"
+        },
+        {
+          "event": "extraction",
+          "timestamp": "2026-03-01T19:13:59.235Z"
+        },
+        {
+          "event": "view_results",
+          "timestamp": "2026-03-01T19:13:59.236Z"
+        },
+        {
+          "event": "extraction",
+          "timestamp": "2026-03-01T19:14:06.410Z"
+        },
+        {
+          "event": "view_results",
+          "timestamp": "2026-03-01T19:14:06.413Z"
+        },
+        {
+          "event": "extraction",
+          "timestamp": "2026-03-01T19:15:48.123Z"
+        },
+        {
+          "event": "view_results",
+          "timestamp": "2026-03-01T19:15:48.125Z"
+        },
+        {
+          "event": "extraction",
+          "timestamp": "2026-03-01T19:15:48.183Z"
+        },
+        {
+          "event": "view_results",
+          "timestamp": "2026-03-01T19:15:48.184Z"
+        },
+        {
+          "event": "extraction",
+          "timestamp": "2026-03-01T19:17:35.956Z"
+        },
+        {
+          "event": "view_results",
+          "timestamp": "2026-03-01T19:17:35.957Z"
+        },
+        {
+          "event": "extraction",
+          "timestamp": "2026-03-01T19:17:41.045Z"
+        },
+        {
+          "event": "view_results",
+          "timestamp": "2026-03-01T19:17:41.047Z"
+        }
+      ]
+    }
+  },
+  "waitlist": [
+    {
+      "sessionId": "enpidi8fnjnkkluqsjokno",
+      "email": "design.manojux@gmail.com",
+      "role": "",
+      "selectedPriceTier": "$9/mo",
+      "usageMetrics": {
+        "extractions": 13,
+        "copiedPrompt": false
+      },
+      "timestamp": "2026-02-23T18:34:46.837Z"
+    },
+    {
+      "sessionId": "test-session",
+      "name": "Test User",
+      "email": "test@example.com",
+      "role": "Internal Tester",
+      "usageMetrics": {
+        "extractions": 0,
+        "copiedPrompt": false
+      },
+      "timestamp": "2026-03-01T04:58:26.768Z"
+    }
+  ],
+  "analytics": {
+    "totalUsers": 2,
+    "totalExtractions": 32,
+    "pricingSelectionDistribution": {
+      "$9": 1,
+      "$19": 1,
+      "$29": 1,
+      "$49+": 1,
+      "no": 1
+    }
+  }
+}

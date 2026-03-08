@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Edge Case Design System</title>
+    <style>
+        :root {
+            /* Modern Colors */
+            --brand-oklch: oklch(0.6 0.18 260);
+            --accent-oklch: oklch(0.7 0.2 300);
+            --neutral-oklch: oklch(0.95 0.01 200);
+
+            /* Complex Shadows */
+            --shadow-complex: 0 4px 6px -1px oklch(0.2 0.02 200 / 0.1), 0 2px 4px -2px oklch(0.2 0.02 200 / 0.1);
+
+            /* Utility Units */
+            --spacing-clamp: clamp(1rem, 5vw, 3rem);
+            --font-size-calc: calc(1rem + 2px);
+        }
+
+        body {
+            background-color: var(--neutral-oklch);
+            font-family: system-ui;
+            padding: var(--spacing-clamp);
+        }
+
+        .button {
+            background-color: var(--brand-oklch);
+            color: white;
+            padding: 12px 24px;
+            border-radius: 9999px;
+            box-shadow: var(--shadow-complex);
+            font-size: var(--font-size-calc);
+            cursor: pointer;
+            border: none;
+            transition: transform 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+        }
+
+        .button:hover {
+            transform: scale(1.05);
+            background-color: var(--accent-oklch);
+        }
+
+        h1 {
+            color: oklch(0.2 0.02 200);
+            font-size: 3.5rem;
+            letter-spacing: -0.05em;
+        }
+
+        .card {
+            background: white;
+            border-radius: 24px;
+            padding: 40px;
+            margin-top: 40px;
+            border: 1px solid oklch(0.8 0.02 200);
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Edge Case Pro</h1>
+    <p>This page uses OKLCH, Clamps, Calcs, and Bezier curves.</p>
+    <button class="button">Analyze Me</button>
+    <div class="card">
+        <p>I am a card with a specific border and radius.</p>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,194 @@
+# 🔷 CLAUDE STRUCTURAL PROMPT
+
+# 🔷 SYSTEM CONTRACT: REPLICATION MODE
+## OBJECTIVE
+You are reconstructing a design system EXACTLY as defined below. Your goal is deterministic fidelity, not creative improvement.
+
+## EXTRACTED DESIGN TOKENS
+### Colors
+- Brand Primary: `#d0d6e0`
+- Brand Secondary: `#e4f222`
+- Text Primary: `#62666d`
+- Neutrals: #f7f8f8, #e6e6e6, #e2e4e6, #8a8f98, #62666d, #3e3e44, #3b3b3b, #383b3f
+Brand Gradient: `repeating-linear-gradient(to right, rgb(35, 37, 42) 0px, rgb(35, 37, 42) 3px, rgba(0, 0, 0, 0) 3px, rgba(0, 0, 0, 0) 7px)`
+
+### Typography
+- Heading Font: `Inter Variable`
+- Body Font: `Inter Variable`
+- Size Scale: [xs, h3, h4, h5, h6, h7, h8, h9, h10, h11, h12, Display]
+
+### Spacing & Layout
+- Spacing Scale: [1, 2, 3, 4, 5]
+- Radius: [sm:4px, md:8px, lg:16px]
+
+### Elevation & Depth
+- Shadows: [subtle, medium, deep]
+- Layer Stacking (Z-Index): [base:1, raised:3, dropdown:50, sticky:100]
+
+### Motion
+- Durations: [fast:100ms, normal:1200ms, slow:2800ms]
+- Standard Easing: `cubic-bezier(0.25, 0.46, 0.45, 0.94)`
+
+## STRICT RULES
+1. **No Invention**: Do not introduce hex codes, spacing increments, colors, or radii not explicitly present in the theme.
+2. **Value Substitution**: If a required style is not present, reuse the *closest defined token*. Do not guess or fallback to browser defaults.
+3. **No Arbitrary Values**: NEVER use `w-[34px]` or `bg-[#1a1a1a]`. Every property must map to a named variable/utility.
+4. **Deterministic Scaling**: 
+   - All layout rhythm must follow the spacing scale: [1, 2, 3, 4, 5].
+   - All typography must follow the size scale: [xs, h3, h4, h5, h6, h7, h8, h9, h10, h11, h12, Display].
+   - All transitions must use the motion scale: [fast:100ms, normal:1200ms, slow:2800ms].
+5. **Trait Alignment**: {"radiusBias":"sharp","shadowDepth":"minimal","colorStrategy":"multi-brand","typographyDensity":"minimal"}.
+
+## VALIDATION BEFORE OUTPUT
+- [ ] No raw hex values?
+- [ ] No arbitrary px values?
+- [ ] All spacing maps to defined scale?
+- [ ] All typography matches defined scale?
+- [ ] All transitions use the motion token?
+- [ ] No fallback browser defaults used?
+
+## DESIGN SYSTEM
+```json
+{
+  "colors": {
+    "brand": {
+      "500": "#d0d6e0",
+      "600": "#e4f222"
+    },
+    "neutral": {
+      "100": "#f7f8f8",
+      "200": "#e6e6e6",
+      "300": "#e2e4e6",
+      "400": "#8a8f98",
+      "500": "#62666d",
+      "600": "#3e3e44",
+      "700": "#3b3b3b",
+      "800": "#383b3f"
+    },
+    "text": {
+      "primary": "#62666d",
+      "secondary": "#d0d6e0"
+    },
+    "background": {
+      "primary": "#08090a",
+      "surface": "#000000"
+    },
+    "accents": [
+      "#d0d6e0",
+      "#e4f222",
+      "#55cdff",
+      "#0f3338",
+      "#ffc47c",
+      "#f79ce0"
+    ],
+    "cssVars": {
+      "--layer-toasts": "#880000",
+      "--layer-dialog": "#770000",
+      "--layer-dialog-overlay": "#669999",
+      "--layer-command-menu": "#665500",
+      "--layer-popover": "#660000",
+      "--layer-overlay": "#550000",
+      "--layer-header": "#110000",
+      "--font-weight-light": "#330000",
+      "--font-weight-normal": "#440000",
+      "--font-weight-medium": "#551100",
+      "--font-weight-semibold": "#559900",
+      "--font-weight-bold": "#668800",
+      "--mask-visible": "#000000",
+      "--mask-on": "#000000",
+      "--color-white": "#ffffff",
+      "--color-black": "#000000",
+      "--color-blue": "#4ea7fc",
+      "--color-red": "#eb5757",
+      "--color-green": "#27a644",
+      "--color-orange": "#fc7840",
+      "--color-yellow": "#f0bf00",
+      "--color-indigo": "#5e6ad2",
+      "--color-teal": "#00b8cc",
+      "--color-linear-plan": "#68cc58",
+      "--color-linear-build": "#d4b144",
+      "--color-linear-security": "#7a7fad"
+    }
+  },
+  "typography": {
+    "fontFamily": {
+      "heading": "Inter Variable",
+      "body": "Inter Variable",
+      "ui": "Inter"
+    },
+    "fontSize": {
+      "xs": "12px",
+      "h3": "13px",
+      "h4": "14px",
+      "h5": "15px",
+      "h6": "16px",
+      "h7": "17px",
+      "h8": "20px",
+      "h9": "24px",
+      "h10": "32px",
+      "h11": "48px",
+      "h12": "64px",
+      "Display": "72px"
+    },
+    "meta": {
+      "scaleRatioAverage": 1.17,
+      "ratioVariance": 0.017,
+      "weightDistribution": {
+        "300": 4,
+        "400": 642,
+        "510": 123,
+        "590": 18
+      },
+      "hierarchyConsistency": 1
+    }
+  },
+  "spacing": {
+    "1": "4px",
+    "2": "8px",
+    "3": "12px",
+    "4": "24px",
+    "5": "32px"
+  },
+  "radius": {
+    "sm": "4px",
+    "md": "8px",
+    "lg": "16px"
+  },
+  "shadow": {
+    "subtle": "rgba(0, 0, 0, 0.03) 0px 1.2px 0px 0px",
+    "medium": "rgba(0, 0, 0, 0.4) 0px 2px 4px 0px",
+    "deep": "rgba(0, 0, 0, 0) 0px 8px 2px 0px, rgba(0, 0, 0, 0.01) 0px 5px 2px 0px, rgba(0, 0, 0, 0.04) 0px 3px 2px 0px, rgba(0, 0, 0, 0.07) 0px 1px 1px 0px, rgba(0, 0, 0, 0.08) 0px 0px 1px 0px"
+  },
+  "zIndices": {
+    "base": 1,
+    "raised": 3,
+    "dropdown": 50,
+    "sticky": 100
+  },
+  "motion": {
+    "duration": {
+      "fast": "100ms",
+      "normal": "1200ms",
+      "slow": "2800ms"
+    },
+    "easing": {
+      "standard": "cubic-bezier(0.25, 0.46, 0.45, 0.94)",
+      "in": "ease-in",
+      "out": "ease-out"
+    },
+    "detectedCount": 10
+  },
+  "gradients": [
+    "repeating-linear-gradient(to right, rgb(35, 37, 42) 0px, rgb(35, 37, 42) 3px, rgba(0, 0, 0, 0) 3px, rgba(0, 0, 0, 0) 7px)",
+    "radial-gradient(circle, rgba(255, 255, 255, 0.03) 0px, rgba(0, 0, 0, 0) 50%)"
+  ],
+  "systemTraits": {
+    "radiusBias": "sharp",
+    "shadowDepth": "minimal",
+    "colorStrategy": "multi-brand",
+    "typographyDensity": "minimal"
+  }
+}
+```
+## EXECUTION
+Build modular, clean React components. Use absolute token fidelity for all padding, margins, colors, and shadows. Implement all hover states using the `motion.duration.fast` (100ms) and `motion.easing.standard` curve. Maintain the minimal typography rhythm detected.

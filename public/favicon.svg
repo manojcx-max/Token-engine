@@ -1,0 +1,24 @@
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Soft Gradient Background -->
+  <defs>
+    <linearGradient id="fav-grad" x1="0" y1="0" x2="64" y2="64" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#111111"/>
+      <stop offset="1" stop-color="#222222"/>
+    </linearGradient>
+  </defs>
+  
+  <rect width="64" height="64" rx="16" fill="url(#fav-grad)"/>
+  
+  <!-- Stylized Token Icon -->
+  <g transform="translate(12, 12)">
+    <!-- Main Layer -->
+    <path d="M20 38L32 44L44 38L32 32L20 38Z" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <!-- Middle Layer -->
+    <path d="M20 28L32 34L44 28L32 22L20 28Z" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" opacity="0.6"/>
+    <!-- Top Layer -->
+    <path d="M20 18L32 24L44 18L32 12L20 18Z" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" opacity="0.3"/>
+    
+    <!-- Central Beam -->
+    <path d="M32 12V32" stroke="white" stroke-width="1.5" stroke-dasharray="2 4" opacity="0.4"/>
+  </g>
+</svg>
